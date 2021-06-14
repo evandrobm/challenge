@@ -3,7 +3,7 @@ Having a list of n digits (0 <= digit <= 9), where n is less than or equal to 10
 Example: [4, 8, 0, 9, 2, 0, 5, 8, 0, 4, 8] -> [4, 8, 9, 2, 5, 8, 4, 8, 0, 0, 0]
 
 
-Next, the previous list without zeros ([4, 8, 9, 2, 5, 8, 4, 8]) will represent a fictitious integer (48925848). Add 1 unit to it, leaving the final list as 
+Next, the previous list without zeros will represent a fictitious integer (48925848). Add 1 unit to it, leaving the final list as 
 [4, 8, 9, 2, 5, 8, 4, 9]. Display this list in the console.
 
 
