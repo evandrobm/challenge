@@ -10,7 +10,7 @@ Display this list in the console. <br>
 
 
 3. Next, multiply each digit that is not a zero and in an even index, by -1. 
-Display this list in the console.<br>
+Display this list in the console. <br>
 ```[4, 8, 9, 2, 5, 8, 4, 9] -> [-4, 8, -9, 2, -5, 8, -4, 9]```
 
 
