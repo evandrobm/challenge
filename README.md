@@ -14,10 +14,14 @@ Example: [4, 8, 9, 2, 5, 8, 4, 9] -> [-4, 8, -9, 2, -5, 8, -4, 9]
 
 A valid subarray is any continuous list of elements belonging to the parent array. 
 The following are valid subarrays of [-4, 8, -9, 2, -5, 8, -4, 9]:
-  [-4, 8, -9]
-  [-9, 2]
-  [-4, 8, -9, 2, -5, 8, -4, 9]
-  [8]
+
+[-4, 8, -9]
+
+[-9, 2]
+
+[-4, 8, -9, 2, -5, 8, -4, 9]
+
+[8]
   
 Finally, detect the subarray, whose sum of digits is the maximum and return this sum. 
 Display this sum in the console. 
