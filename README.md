@@ -16,7 +16,8 @@ Example: [4, 8, 9, 2, 5, 8, 4, 9] -> [-4, 8, -9, 2, -5, 8, -4, 9]
 <br><br>
 
 
-A valid subarray is any continuous list of elements belonging to the parent array. 
+A valid subarray is any continuous list of elements belonging to the parent array.
+
 The following are valid subarrays of [-4, 8, -9, 2, -5, 8, -4, 9]:
 
 [-4, 8, -9]
