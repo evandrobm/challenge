@@ -9,6 +9,6 @@ Display this list in the console.
 Example: [4, 8, 9, 2, 5, 8, 4, 8, 0, 0, 0] -> [4, 8, 9, 2, 5, 8, 4, 9]
 
 
-Next, multiply each digit in an odd position that is not a zero, by -1. Finally, detect the sub-array, whose sum of digits is the maximum and return this sum. 
+Next, multiply each digit in an even index that is not a zero, by -1. Finally, detect the sub-array, whose sum of digits is the maximum and return this sum. 
 Display this sum in the console.
 Example: [4, 8, 9, 2, 5, 8, 4, 9] -> [-4, 8, -9, 2, -5, 8, -4, 9] -> 13. 
