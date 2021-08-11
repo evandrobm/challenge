@@ -1,5 +1,5 @@
 # JS Challenge
-1. Having a list of n digits (where: 0 <= digit <= 9), where n is less than or equal to 100, arrange it to move all 0's to the right in O(n) time. 
+1. Having a list of n digits where 0 <= digit <= 9 and where n is less than or equal to 100, arrange it to move all 0's to the right in O(n) time. 
 Display this list in the console. <br>
 ```[4, 8, 0, 9, 2, 0, 5, 8, 0, 4, 8] -> [4, 8, 9, 2, 5, 8, 4, 8, 0, 0, 0]```
 
@@ -14,9 +14,18 @@ Display this list in the console. <br>
 ```[4, 8, 9, 2, 5, 8, 4, 9] -> [-4, 8, -9, 2, -5, 8, -4, 9]```
 
 
-A valid subarray is any continuous list of elements belonging to the parent array. <br>
-The following are valid subarrays of ```[-4, 8, -9, 2, -5, 8, -4, 9]```
+4. Finally, detect the subarray, whose sum of digits is the maximum and return this sum.
+Display this sum in the console. <br>
+```[-4, 8, -9, 2, -5, 8, -4, 9] -> 13 ``` <br>
+```[8, -4, 9]``` is our maximum subarray and its sum is ```13```.
+
+
+
+
 ```
+A valid subarray is any continuous list of elements belonging to the parent array.
+The following are valid subarrays of [-4, 8, -9, 2, -5, 8, -4, 9]
+
     [-4, 8, -9]
 
     [-9, 2]
@@ -26,7 +35,3 @@ The following are valid subarrays of ```[-4, 8, -9, 2, -5, 8, -4, 9]```
     [8]
 ```
 
-4. Finally, detect the subarray, whose sum of digits is the maximum and return this sum.
-Display this sum in the console. <br>
-```[-4, 8, -9, 2, -5, 8, -4, 9] -> 13 ``` <br>
-```[8, -4, 9]``` is our maximum subarray and its sum is ```13```.
