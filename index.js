@@ -17,6 +17,10 @@ Array.prototype.moveArrayZerosToEnd = function() {
 Array.prototype.addOneUnit = function() {
     // Filter out the zeros
     const arr = this.filter(item => item !== 0)
+    if(arr.length === 0) {
+        return []
+    }
+    // Iterate through the array and add 1 to each number
     // Iterate through the array and add 1 to final item until it's not a 10
     // This simulates the sum as the array is a single number
     for(let i = arr.length-1; i >= 0; i--) {
