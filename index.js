@@ -70,22 +70,26 @@ Array.prototype.subarrayWithMaxSum = function() {
 
 
 
-// Test execution
-let arr = [4, 8, 0, 9, 2, 0, 5, 8, 0, 4, 8]
-console.log('Original Array:', arr)
+// Test execution routine
+function execute(arr){
+    console.log('Original Array:', arr)
 
-// Step 1: Move all zeros to end of the array
-arr = arr.moveArrayZerosToEnd()
-console.log('Step 1:', arr)
+    // Step 1: Move all zeros to end of the array
+    arr = arr.moveArrayZerosToEnd()
+    console.log('Step 1 - Zeros at the end:', arr)
 
-// Step 2: Add one unit to to the number compound by array elements
-arr = arr.addOneUnit()
-console.log('Step 2:', arr)
+    // Step 2: Add one unit to to the number compound by array elements
+    arr = arr.addOneUnit()
+    console.log('Step 2 - Add 1:', arr)
 
-// Step 3: Multiply even elements by -1
-arr = arr.multiplyEvenBy(-1)
-console.log('Step 3:', arr)
+    // Step 3: Multiply even elements by -1
+    arr = arr.multiplyEvenBy(-1)
+    console.log('Step 3 - Multiply evens by -1:', arr)
 
-// Step 4: Find the maximum sum of subarrays
-arr = arr.subarrayWithMaxSum()
-console.log('Step 4:', arr)
+    // Step 4: Find the maximum sum of subarrays
+    arr = arr.subarrayWithMaxSum()
+    console.log('Step 4 - Max subarray sum:', arr)
+}
+
+// Testing example array from the challenge
+execute([4, 8, 0, 9, 2, 0, 5, 8, 0, 4, 8])
